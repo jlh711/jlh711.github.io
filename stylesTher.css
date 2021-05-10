@@ -146,6 +146,9 @@ body {
 #payment .subtext{
   font-size:20px;
 }
+#payment img{
+  width:90%;
+}
 .receiptGif{
   width: 80%;
   margin-bottom:10px;
@@ -189,10 +192,10 @@ body {
 #moreinfo ul{
   margin-left:7%;
 }
-#moreinfo img{
+/* #moreinfo img{
   padding-top: 5%;
   width:90%;
-}
+} */
 #moreinfo .anxious:before {
   content: '';
   background: #8FBC8F;
