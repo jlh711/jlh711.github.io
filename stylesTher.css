@@ -191,6 +191,7 @@ body {
 }
 #moreinfo img{
   padding-top: 5%;
+  width:90%;
 }
 #moreinfo .anxious:before {
   content: '';
