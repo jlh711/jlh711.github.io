@@ -92,7 +92,7 @@ body {
   color:#556B2F;
 }
 .makeImg{
-  width:40%;
+  width:50%;
   height:240px;
   margin-top:20px;
 }
@@ -106,7 +106,7 @@ body {
 }
 .subtitle::before{
   content: '';
-  background: #f097b2;
+  background: #8FBC8F;
   height:5px;
   width:80%;
   margin-left:auto;
@@ -116,7 +116,7 @@ body {
 }
 .subtitle::after{
   content: '';
-  background: #f097b2;
+  background: #8FBC8F;
   height:10px;
   width:30%;
   margin-left:auto;
@@ -190,8 +190,17 @@ body {
   margin-left:7%;
 }
 #moreinfo img{
-  /* width:80%;
-  padding-left: 10%; */
+  padding-top: 5%;
+}
+#moreinfo .anxious:before{
+  content: '';
+  background: #8FBC8F;
+  height:5px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  transform: translateY(2.8em);
 }
 
 /* download app */
