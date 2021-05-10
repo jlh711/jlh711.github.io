@@ -12,6 +12,7 @@ body {
 
 
 #nav-bar{
+  width:100%;
   position:sticky;
   top:0;
   z-index:10;
@@ -45,6 +46,7 @@ body {
 /* banner */
 
 #banner{
+  width:100%;
   background-image:linear-gradient(to right, #f097b2, #d11d53);
   color:#fff;
   padding-top:3%;
@@ -61,6 +63,7 @@ body {
 
 /* where */
 #where{
+  width:100%;
   padding:5% 0;
 }
 #where p{
@@ -78,6 +81,7 @@ body {
 
 /* make an apt */
 #make{
+  width:100%;
   background-color: #fadadd;
   padding-bottom:50px;
   padding-top:50px;
@@ -133,6 +137,7 @@ body {
 
 /* payment */
 #payment{
+  width:100%;
   padding-bottom:50px;
   padding-top:50px;
 }
@@ -165,6 +170,7 @@ body {
 
 /* more info */
 #moreinfo{
+  width:100%;
   background-color:#fadadd;
   padding-bottom:50px;
   padding-top:50px;
@@ -187,6 +193,7 @@ body {
 
 /* download app */
 #app{
+  width:100%;
   padding-bottom:20px;
   padding-top:50px;
 }
@@ -201,6 +208,7 @@ body {
 
 /* footer */
 #footer{
+  width:100%;
   background-image:linear-gradient(to right, #f097b2, #d11d53);
   color: #fff;
 }
