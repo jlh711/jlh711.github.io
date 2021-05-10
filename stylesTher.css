@@ -192,7 +192,7 @@ body {
 #moreinfo img{
   padding-top: 5%;
 }
-#moreinfo .anxious:before{
+#moreinfo .anxious:before {
   content: '';
   background: #8FBC8F;
   height:5px;
