@@ -190,12 +190,11 @@ body {
   font-weight:300;
 }
 #moreinfo ul{
-  margin-left:7%;
+  margin-left:7%; 
 }
-/* #moreinfo img{
+#moreinfo img{
   padding-top: 5%;
-  width:90%;
-} */
+}
 #moreinfo .anxious:before {
   content: '';
   background: #8FBC8F;
