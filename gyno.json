@@ -1,7 +1,7 @@
 {
   "name": "Gynos in Shanghai",
   "short_name": "Gynos",
-  "start_url": "index.html",
+  "start_url": "gynoSiteBootstrap.html",
   "scope": "./",
   "icons": [
     {
