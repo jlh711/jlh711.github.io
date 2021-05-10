@@ -26,7 +26,7 @@ body {
   padding-left:1%;
 }
 .navbar-nav li{
-  padding:0 10px;
+  padding:0 2%;
 }
 .navbar-nav li a{
   color:#fff !important;
@@ -34,10 +34,6 @@ body {
   float:right;
   text-align:left;
 }
-/* .fa-bars{
-  color:#fff;
-  font-size: 30px !important;
-} */
 .navbar-toggler-icon{
   color:#fff;
   font-size: 20px !important;
@@ -54,9 +50,9 @@ body {
   padding-top:3%;
 }
 .PREtitle{
-  font-size:40px;
+  font-size:2.5em;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 2%;
 }
 .bottom-img{
   width:100%;
@@ -65,7 +61,7 @@ body {
 
 /* where */
 #where{
-  padding:50px 0;
+  padding:5% 0;
 }
 #where p{
   font-weight:300;
@@ -93,12 +89,12 @@ body {
   color:#d11d53;
 }
 .makeImg{
-  width:260px;
+  width:80%;
   height:180px;
   margin-top:20px;
 }
 .makeApt{
-  padding:20px;
+  padding:1em;
 }
 .makeApt h4{
   padding:5px;
@@ -109,22 +105,22 @@ body {
   content: '';
   background: #f097b2;
   height:5px;
-  width:200px;
+  width:80%;
   margin-left:auto;
   margin-right:auto;
   display:block;
-  transform: translateY(63px);
+  transform: translateY(2em);
 }
 .subtitle::after{
   content: '';
   background: #f097b2;
   height:10px;
-  width:50px;
+  width:30%;
   margin-left:auto;
   margin-right:auto;
   margin-bottom:40px;
   display:block;
-  transform: translateY(20px);
+  transform: translateY(.5em);
 }
 #payment .btn-SOB{
   box-shadow:none;
@@ -147,16 +143,17 @@ body {
   font-size:20px;
 }
 .receiptGif{
+  width: 80%;
   margin-bottom:10px;
 }
-#payment #emailEx{
+/* #payment #emailEx{
    border-left: 4px solid #d11d53;
    padding-bottom:10px;
    padding-top:10px;
    padding-left:20px;
-}
+} */
 #payment .subsubtitle{
-  font-size:20px;
+  font-size:1.25em;
   font-weight:600;
   margin-top:5%;
 }
@@ -173,7 +170,7 @@ body {
   padding-top:50px;
 }
 #moreinfo .question-title{
-  font-size:20px;
+  font-size:1.25em;
   font-weight:600;
   margin-top:5%;
 }
@@ -181,11 +178,11 @@ body {
   height:300px;
 }
 #moreinfo ul li{
-  margin:10px 0;
+  margin:3% 0;
   font-weight:300;
 }
 #moreinfo ul{
-  margin-left:20px;
+  margin-left:7%;
 }
 
 /* download app */
@@ -213,5 +210,5 @@ body {
 }
 .idtag{
   text-align: right;
-  padding:5px;
+  padding:3%;
 }
