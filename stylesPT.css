@@ -141,6 +141,9 @@ body {
 }
 #payment p{
   font-weight:300;
+  padding-top: 0%;
+  padding-bottom: 0%;
+
 }
 #payment .subtext{
   font-size:20px;
@@ -205,6 +208,27 @@ body {
 #app img{
   padding-top: 5px;
   padding-bottom: 10px;
+}
+#app .btn-collect{
+  box-shadow:none;
+  padding: 8px 25px;
+  border:none;
+  border-radius: 20px;
+  background-image:linear-gradient(to right, #CBC3E3, #9370DB);
+  color:white;
+}
+/* #app .wavyline{
+  width:90%;
+  /* height:10px;; */
+#app .collection:before {
+  content: '';
+  background: #DEB887;
+  height:5px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  transform: translateY(1.8em);
 }
 
 /* footer */
