@@ -6,6 +6,7 @@ body {
   font-family:sans-serif;
 }
 #nav-bar{
+  width:100%;
   position:sticky;
   top:0;
   z-index:10;
@@ -15,11 +16,12 @@ body {
   padding:0!important;
 }
 .navbar-brand img{
-  height:50px;
-  padding-left:5px;
+  height:2em;
+  width:2.5em;
+  padding-left:1%;
 }
 .navbar-nav li{
-  padding:0 10px;
+  padding:0 2%;
 }
 .navbar-nav li a{
   color:#fff !important;
@@ -42,12 +44,13 @@ body {
 /* banner */
 
 #banner{
+  width:100%;
   background-image:linear-gradient(to right, #DEB887, #8B4513);
   color:#fff;
   padding-top:3%;
 }
 .PREtitle{
-  font-size:40px;
+  font-size:2.5em;
   font-weight: 600;
   margin-top: 10px;
 }
@@ -58,7 +61,8 @@ body {
 
 /* where */
 #where{
-  padding:50px 0;
+  width:100%;
+  padding:5% 0;
 }
 #where p{
   font-weight:300;
@@ -75,24 +79,27 @@ body {
 
 /* make an apt */
 #make{
+  width:100%;
   background-color: #FFEBCD	;
   padding-bottom:50px;
   padding-top:50px;
 }
 #make p{
   font-weight:300;
-
+}
+#make a{
+  color:#654321;
 }
 .makeImg{
-  width:260px;
+  width:80%;
   height:180px;
   margin-top:20px;
 }
 .makeApt{
-  padding:20px;
+  padding:1em;
 }
 .makeApt h4{
-  padding:5px;
+  padding:0.1em;
   margin-top:25px;
   text-transform: uppercase;
 }
@@ -100,22 +107,22 @@ body {
   content: '';
   background: #DEB887;
   height:5px;
-  width:200px;
+  width:80%;
   margin-left:auto;
   margin-right:auto;
   display:block;
-  transform: translateY(63px);
+  transform: translateY(2em);
 }
 .subtitle::after{
   content: '';
   background: #DEB887;
   height:10px;
-  width:50px;
+  width:30%;
   margin-left:auto;
   margin-right:auto;
   margin-bottom:40px;
   display:block;
-  transform: translateY(20px);
+  transform: translateY(.5em);
 }
 #payment .btn-SOB{
   box-shadow:none;
@@ -128,6 +135,7 @@ body {
 
 /* payment */
 #payment{
+  width:100%;
   padding-bottom:50px;
   padding-top:50px;
 }
@@ -138,16 +146,16 @@ body {
   font-size:20px;
 }
 .receiptGif{
-  margin-bottom:10px;
+  width: 80%;
 }
-#payment #emailEx{
+/* #payment #emailEx{
    border-left: 4px solid #d11d53;
    padding-bottom:10px;
    padding-top:10px;
    padding-left:20px;
-}
+} */
 #payment .subsubtitle{
-  font-size:20px;
+  font-size:1.25em;
   font-weight:600;
   margin-top:5%;
 }
@@ -159,12 +167,13 @@ body {
 
 /* more info */
 #moreinfo{
+  width:100%;
   background-color:#FFEBCD;
   padding-bottom:50px;
   padding-top:50px;
 }
 #moreinfo .question-title{
-  font-size:20px;
+  font-size:1.25em;
   font-weight:600;
   margin-top:5%;
 }
@@ -172,15 +181,16 @@ body {
   height:300px;
 }
 #moreinfo ul li{
-  margin:10px 0;
+  margin:3% 0;
   font-weight:300;
 }
 #moreinfo ul{
-  margin-left:20px;
+  margin-left:7%;
 }
 
 /* download app */
 #app{
+  width:100%;
   padding-bottom:20px;
   padding-top:50px;
 }
@@ -199,6 +209,7 @@ body {
 
 /* footer */
 #footer{
+  width:100%;
   background-image:linear-gradient(to right, #DEB887, #8B4513);
   color: #fff;
 }
@@ -208,5 +219,5 @@ body {
 }
 .idtag{
   text-align: right;
-  padding:5px;
+  padding:3%;
 }
